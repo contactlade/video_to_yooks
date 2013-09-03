@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Video to Yookos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logtitle"> Login/out</string>
+     <string name="camtitle"> Pictures</string>
+     
+     <string name="btnv">Video</string>
+          <string name="btnc">Pictures</string>
+     
+
+</resources>
