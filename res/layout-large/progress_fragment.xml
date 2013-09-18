@@ -4,18 +4,15 @@
     
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
- 
-   
-      
+    android:orientation="vertical">
+    
     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text=" History fragment  "
         
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/txt1"
-        android:text="Queue"
         />
- 
     
     
 </LinearLayout>

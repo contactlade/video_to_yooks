@@ -22,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+             <activity
+            android:name="work.example.video_to_yooks.UploadFragment"
+             >
+         
+        </activity>
         
     </application>
 

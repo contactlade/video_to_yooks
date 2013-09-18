@@ -1,23 +1,19 @@
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical"
-    >
+    android:paddingRight="16dp">
     
     
-    <LinearLayout
-           android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
+    
           <Button
              android:id="@+id/btnvideo"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-          
+          	 android:layout_toLeftOf="@+id/btncamera"
              
              android:text="@string/btnv"
              android:onClick="actionButton"
@@ -29,26 +25,21 @@
                  <Button
              android:id="@+id/btncamera"
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content"        
-            
+             android:layout_height="wrap_content"
+           
+            android:layout_centerHorizontal="true"
              android:text="@string/btnc"
              android:onClick="actionButton"
              android:textSize="30sp" 
              android:background="@drawable/button_custom"
              android:textColor="#FFFFFF"/>
                  
-                 </LinearLayout>
-                 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" >
-                 
                     <LinearLayout
                         android:id="@+id/containerfragment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                  		android:layout_weight="10"
+                        android:layout_above="@+id/btnUQH"
+                        android:layout_below="@+id/btnvideo"
                         android:orientation="horizontal" 
                  
                         />
@@ -57,15 +48,14 @@
                   android:id="@+id/btnUQH"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-				  android:layout_weight="1"
+				  android:layout_alignParentBottom="true"
                   android:background="@drawable/button_custom"
                   android:onClick="actionChange"
                   android:text="@string/btnUQH"
                   android:textColor="#FFFFFF"
                   android:textSize="30sp" />
-              </LinearLayout>
     
-</LinearLayout>
+</RelativeLayout>
 
 
 

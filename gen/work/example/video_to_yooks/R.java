@@ -998,13 +998,14 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f05002f;
         public static final int action_mode_bar_stub=0x7f05002e;
         public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f050047;
+        public static final int action_settings=0x7f050049;
         public static final int activity_chooser_view_content=0x7f050023;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int btnUQH=0x7f050045;
         public static final int btncamera=0x7f050043;
         public static final int btnvideo=0x7f050042;
-        public static final int cam=0x7f050049;
+        public static final int cam=0x7f05004b;
         public static final int checkbox=0x7f05002b;
         public static final int collapseActionView=0x7f05000d;
         public static final int containerfragment=0x7f050044;
@@ -1024,16 +1025,16 @@ containing a value of this type.
         public static final int left_icon=0x7f050031;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050027;
-        public static final int log=0x7f050048;
+        public static final int log=0x7f05004a;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int progfrag=0x7f050045;
+        public static final int progfrag=0x7f050046;
         public static final int progress_circular=0x7f050034;
         public static final int progress_horizontal=0x7f050035;
         public static final int radio=0x7f05002d;
-        public static final int realtabcontent=0x7f050046;
+        public static final int realtabcontent=0x7f050048;
         public static final int right_container=0x7f050032;
         public static final int right_icon=0x7f050033;
         public static final int search_badge=0x7f050038;
@@ -1056,6 +1057,7 @@ containing a value of this type.
         public static final int title=0x7f050029;
         public static final int title_container=0x7f050030;
         public static final int top_action_bar=0x7f05001e;
+        public static final int txt1=0x7f050047;
         public static final int up=0x7f05001f;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1119,6 +1121,8 @@ containing a value of this type.
         public static final int fragment_video=0x7f03001e;
         public static final int progress_fragment=0x7f03001f;
         public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int test=0x7f030021;
+        public static final int test2=0x7f030022;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1166,6 +1170,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
+        public static final int btnUQH=0x7f0a0014;
         public static final int btnc=0x7f0a0013;
         public static final int btnv=0x7f0a0012;
         public static final int camtitle=0x7f0a0011;

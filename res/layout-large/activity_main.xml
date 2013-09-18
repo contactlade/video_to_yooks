@@ -1,0 +1,56 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    
+    
+    
+          <Button
+             android:id="@+id/btnvideo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+          	 android:layout_toLeftOf="@+id/btncamera"
+             
+             android:text="@string/btnv"
+             android:onClick="actionButton"
+             android:textSize="30sp" 
+             android:background="@drawable/button_custom"
+             android:textColor="#FFFFFF"/>
+     
+    
+                 <Button
+             android:id="@+id/btncamera"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           
+            android:layout_centerHorizontal="true"
+             android:text="@string/btnc"
+             android:onClick="actionButton"
+             android:textSize="30sp" 
+             android:background="@drawable/button_custom"
+             android:textColor="#FFFFFF"/>
+                 
+                    <LinearLayout
+                        android:id="@+id/containerfragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignRight="@+id/btncamera"
+                        android:layout_below="@+id/btnvideo"
+                        android:orientation="horizontal" />
+
+           <fragment
+               android:id="@+id/progfrag"
+               android:name="work.example.video_to_yooks.ProgressTab"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@+id/btncamera"
+               android:layout_toRightOf="@+id/btncamera"
+               android:orientation="horizontal" />
+    
+</RelativeLayout>
+ 

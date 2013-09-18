@@ -12,12 +12,15 @@ import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
-		Fragment fragment;
+	    Fragment fragment;
 		Button videobtn,camerabtn;
 		
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
+		
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
@@ -31,6 +34,8 @@ public class MainActivity extends ActionBarActivity {
 		VideoFragment myVideo = new VideoFragment();
 		ft.add(R.id.containerfragment, myVideo);
 		
+		//fragment= new ProgressTab ();
+		//ft.add(R.id.progfrag, fragment);		
 		ft.commit();
 		
 	}
@@ -58,16 +63,22 @@ public class MainActivity extends ActionBarActivity {
 								transaction.commit();
 								
 						
+						
 				
-				
-				
-						}
-				
+	}
 		
-			
-			
-		
-		
+					public void actionChange(View v){
+						Fragment newFragment2;
+						newFragment2 = new ProgressTab2();
+						//newFragment2 = new VideoFragment();
+						FragmentTransaction transact = getSupportFragmentManager().beginTransaction();
+						transact.replace(R.id.containerfragment, newFragment2);
+					
+						transact.commit();
+						
+						
+						
+					}
 	
 	
 

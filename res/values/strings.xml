@@ -9,6 +9,6 @@
      
      <string name="btnv">Video</string>
           <string name="btnc">Pictures</string>
-     
+      <string name="btnUQH">Upload/Queue/History</string>
 
 </resources>

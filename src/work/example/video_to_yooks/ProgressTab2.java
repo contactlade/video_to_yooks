@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 
 
-public class ProgressTab extends Fragment{
+public class ProgressTab2 extends Fragment{
 	
 	FragmentTabHost mTabHost;
 
@@ -18,7 +18,7 @@ public class ProgressTab extends Fragment{
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container,
 	            Bundle savedInstanceState) {
 	        mTabHost = new FragmentTabHost(getActivity());
-	        mTabHost.setup(getActivity(), getChildFragmentManager(), R.id.progfrag);
+	        mTabHost.setup(getActivity(), getChildFragmentManager(), R.id.containerfragment);
 	
 	    	mTabHost.addTab(mTabHost.newTabSpec("upload").setIndicator("Upload"), UploadFragment.class, null);
 			mTabHost.addTab(mTabHost.newTabSpec("queue").setIndicator("Queue"), QueueFragment.class, null);
